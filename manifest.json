@@ -1,15 +1,15 @@
 {
   "name": "SDM Plugins",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Custom Nuvio-format JavaScript plugins built for SDM NUVIO.",
   "author": "SDM NUVIO",
   "scrapers": [
     {
-      "id": "moviebox",
+      "id": "sdm-moviebox",
       "name": "MovieBox (SDM)",
       "description": "MovieBox mobile API provider ported from Cloudstream MovieBoxProvider v40 with HMAC-MD5 request signing, multi-host failover, dub resolution, CloudFront/Edge-Cache DASH manifest extraction, and subtitle lookup.",
-      "version": "1.0.1",
-      "filename": "providers/moviebox.js",
+      "version": "1.0.2",
+      "filename": "providers/sdm-moviebox.js",
       "supportedTypes": [
         "movie",
         "tv"
